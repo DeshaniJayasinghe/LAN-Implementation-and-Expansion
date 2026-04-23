@@ -61,6 +61,4 @@
 </table>
 
 <br>
-<blockquote style="background-color: #f9f9f9; border-left: 5px solid #ccc; padding: 10px;">
-  <b>Note:</b> This repository contains the complete implementation for the CTEC 22061 networking laboratory series at the <b>University of Kelaniya</b>.
-</blockquote>
+
