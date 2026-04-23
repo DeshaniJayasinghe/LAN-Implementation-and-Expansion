@@ -3,76 +3,62 @@
 <p align="center">
   <img src="https://img.shields.io/badge/Course-CTEC%2022061-blue" alt="Course Code">
   <img src="https://img.shields.io/badge/Semester-2nd%20Year%202nd%20Sem-orange" alt="Semester">
-  <img src="https://img.shields.io/badge/Tools-Cisco%20Packet%20Tracer-green" alt="Tools">
+  <img src="https://img.shields.io/badge/Status-Completed-success" alt="Status">
 </p>
 
 <hr>
 
 <h3>📝 Project Overview</h3>
 <p>
-  This project focuses on <b>Implementing and Expanding Local Area Networks (LANs)</b>. Developed as part of the <b>CTEC 22061: Data Communication and Networking II</b> course, it demonstrates advanced networking concepts including VLAN segmentation, Inter-VLAN routing, and the integration of specialized services like <b>VoIP</b> and <b>IoT</b>.
+  This project focuses on <b>Implementing and Expanding Local Area Networks (LANs)</b>. Developed as part of the <b>CTEC 22061: Data Communication and Networking II</b> course, it demonstrates a comprehensive network design featuring segmented traffic, remote management, and smart device integration.
 </p>
 
 <div align="center">
   <img width="1478" alt="Project Topology" src="https://github.com/user-attachments/assets/your-image-link-here" />
 </div>
 
-<h3>🚀 Key Features</h3>
+<h3>🚀 Key Implementations</h3>
 <ul>
-  <li><b>VLAN Segmentation:</b> Organized network traffic into functional groups (Voice, Data, IoT) for enhanced security and efficiency.</li>
-  <li><b>Inter-VLAN Routing:</b> Configured Router-on-a-Stick and Layer 3 switching to allow communication between different subnets.</li>
-  <li><b>Dynamic Addressing:</b> Implemented <b>DHCP pools</b> for automatic IP assignment across the network.</li>
-  <li><b>VoIP Integration:</b> Configured Cisco IP Phones and Softphones (IP Communicator) with custom directory numbers and TFTP services.</li>
-  <li><b>IoT Management:</b> Integrated smart devices (Fan, AC, Light) controlled via a central gateway/server.</li>
+  <li><b>VLAN Configuration & Management:</b> Created separate Virtual LANs to isolate traffic for different departments and services, ensuring better security and reduced broadcast traffic.</li>
+  <li><b>Inter-VLAN Routing:</b> Configured routing between subnets to allow seamless communication across different parts of the organization.</li>
+  <li><b>VoIP (Voice over IP) Setup:</b> Implemented a complete IP Telephony system. This involved configuring the router as a Voice Gateway to assign directory numbers and handle call routing for IP Phones, Smartphones, and Softphones (Cisco IP Communicator).</li>
+  <li><b>IoT Device Integration:</b> Added and configured smart devices including Ceiling Fans, Lights, and AC units. These devices were connected via a Wireless Access Point to a central management server for automation and control.</li>
+  <li><b>Network Optimization:</b> Configured DHCP services for automatic IP addressing and ensured proper connectivity across all wired and wireless segments.</li>
 </ul>
 
-<h3>🛠️ Tech Stack & Networking Protocols</h3>
-<p>
-  <img src="https://img.shields.io/badge/Cisco_Packet_Tracer-005FB8?style=for-the-badge&logo=cisco&logoColor=white" alt="Packet Tracer">
-  <img src="https://img.shields.io/badge/Networking-DHCP%20%7C%20VLAN%20%7C%20VoIP-lightgrey?style=for-the-badge" alt="Networking">
-</p>
-
-<h3>⚙️ Implementation Details</h3>
-
-<h4>1. Network Topology</h4>
-<p>The network consists of multiple subnets, including a main server farm, office workstations, and a wireless IoT zone. A core router serves as the <b>Default Gateway (208.67.220.250)</b>.</p>
-
-<h4>2. VoIP Configuration</h4>
-<p>Telephony services were configured on the Cisco router to handle registration for:</p>
+<h3>⚙️ Tools Used</h3>
 <ul>
-  <li>IP Phones (DN 1001-1002)</li>
-  <li>Smartphones (DN 1003)</li>
-  <li>Laptop Softphones (DN 1004)</li>
+  <li><b>Cisco Packet Tracer:</b> For network design, simulation, and configuration.</li>
+  <li><b>Cisco IOS:</b> Used Command Line Interface (CLI) for advanced router and switch configurations.</li>
 </ul>
 
-<h4>3. IoT Ecosystem</h4>
-<p>Devices like Humidity Monitors and Garage Doors are linked via a Wireless Access Point, enabling remote monitoring and automation within the LAN environment.</p>
+<h3>📂 Project Resources & Downloads</h3>
+<p>You can view and download the project files and documentation below:</p>
 
-<h3>📂 Project Files</h3>
-<p>This repository includes the following resources:</p>
-
-<div align="left">
-  <table>
+<table>
+  <thead>
     <tr>
-      <td><b>File Name</b></td>
-      <td><b>Description</b></td>
+      <th>Resource</th>
+      <th>Action</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><b>Cisco Packet Tracer File (.pkt)</b></td>
+      <td><a href="./CT2022_067%20-Expanding%20LANs.pkt">📥 Download Project File</a></td>
     </tr>
     <tr>
-      <td><code>CT2022_067 -Expanding LANs.pkt</code></td>
-      <td>Source Cisco Packet Tracer File</td>
+      <td><b>Phase 1: Implementing LANs (PDF)</b></td>
+      <td><a href="./CTECT%2022061%20-%20Day2Lab%20-%20ImplementingLANs.pdf">📄 View Lab Guidelines</a></td>
     </tr>
     <tr>
-      <td><code>CTECT 22061 - Day2Lab - ImplementingLANs.pdf</code></td>
-      <td>Phase 1 Lab Guidelines</td>
+      <td><b>Phase 2: Expanding LANs (PDF)</b></td>
+      <td><a href="./CTECT%2022061%20-Day2Lab_Part%20ii%20-%20Expanding%20LANs_Updated%20(1).pdf">📄 View Updated Guidelines</a></td>
     </tr>
-    <tr>
-      <td><code>CTECT 22061 -Day2Lab_Part ii - Expanding LANs.pdf</code></td>
-      <td>Phase 2 Expansion Guidelines</td>
-    </tr>
-  </table>
-</div>
+  </tbody>
+</table>
 
 <br>
 <blockquote style="background-color: #f9f9f9; border-left: 5px solid #ccc; padding: 10px;">
-  <b>Academic Integrity:</b> This project is part of an undergraduate laboratory series at the <b>University of Kelaniya</b> to demonstrate proficiency in enterprise-grade network design and troubleshooting.
+  <b>Note:</b> This repository contains the complete implementation for the CTEC 22061 networking laboratory series at the <b>University of Kelaniya</b>.
 </blockquote>
