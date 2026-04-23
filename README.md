@@ -10,7 +10,7 @@
 
 <h3>📝 Project Overview</h3>
 <p>
-  This project focuses on <b>Implementing and Expanding Local Area Networks (LANs)</b>. Developed as part of the <b>CTEC 22061: Data Communication and Networking II</b> course, it demonstrates a comprehensive network design featuring segmented traffic, remote management, and smart device integration.
+  This project focuses on <b>Implementing and Expanding Local Area Networks (LANs)</b>. Developed as part of the <b>CTEC 22061: Systems and Network Laboratory</b> course, it demonstrates a comprehensive network design featuring segmented traffic, remote management, and smart device integration.
 </p>
 
 <div align="center">
